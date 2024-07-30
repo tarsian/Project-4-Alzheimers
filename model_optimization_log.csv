@@ -1,4 +1,0 @@
-Iteration,Model,Parameters,Accuracy,AUC
-1,Random Forest,"{'n_estimators': 100, 'max_depth': 10}",0.9348837209302325,0.9607852595022187
-2,Random Forest,"{'n_estimators': 200, 'max_depth': 15}",0.9465116279069767,0.9606646729693228
-3,Random Forest,"{'n_estimators': 300, 'max_depth': 20}",0.9441860465116279,0.957999710592321
