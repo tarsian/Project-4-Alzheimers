@@ -101,6 +101,6 @@ Three models were implemented:
 To run the project, follow these steps:
 1. Clone the repository
 2. Install the required packages
-3. Run the `main.py` script
+3. Run the `Alzheimer's Disease.ipynb` script
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=BDBDC8&height=150&section=footer" />
