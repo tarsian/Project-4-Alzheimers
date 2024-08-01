@@ -14,15 +14,8 @@ The dataset used in this project includes demographic, clinical, and lifestyle i
 ## Models
 Three models were implemented:
 - Random Forest
-
-  ![image](https://github.com/user-attachments/assets/8b09dcb5-990c-4d2a-bcbb-6e7d6e3c8a65)
-
 - Decision Tree
-
-  ![image](https://github.com/user-attachments/assets/6a466b44-518a-481a-aee3-e5210674c0b0)
-
-
-- Logistic Regression
+- Gradient Boosting
 
 ## Initial Results
 - **Random Forest**
@@ -37,16 +30,10 @@ Three models were implemented:
   - Accuracy: 84.38%
   - AUC: 0.8975
 
-- **ROC curve and AUC**
-
-![image](https://github.com/user-attachments/assets/edac95cd-7abc-4d3b-bc94-d84e1226124c)
-
 ## Optimized Results
 
 ### Random Forest
-- **Best Parameters**: {'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 10, 'n_estimators': 100}
-- **Cross-validation Accuracy**: 93.18%
-- **Test Accuracy**: 95.19%
+- **Accuracy**: 95.19%
 - **Confusion Matrix**:
 
 |          | Predicted Negative | Predicted Positive |
@@ -60,14 +47,14 @@ Three models were implemented:
 |-------|-----------|--------|----------|---------|
 | 0.0   | 0.95      | 0.98   | 0.97     | 288     |
 | 1.0   | 0.96      | 0.88   | 0.92     | 128     |
-| **Accuracy** |       |        |          | **0.95** |
+| **Accuracy** |       |        | 0.95     | 416     |
 | **Macro Avg** | 0.95      | 0.93   | 0.94     | 416     |
 | **Weighted Avg** | 0.95      | 0.95   | 0.95     | 416     |
 
+![image](https://github.com/user-attachments/assets/90861839-bfdf-4f9e-82b2-c05ab8fe215c)
+
 ### Decision Tree
-- **Best Parameters**: {'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 10}
-- **Cross-validation Accuracy**: 91.98%
-- **Test Accuracy**: 94.47%
+- **Accuracy**: 94.47%
 - **Confusion Matrix**:
 
 |          | Predicted Negative | Predicted Positive |
@@ -81,14 +68,39 @@ Three models were implemented:
 |-------|-----------|--------|----------|---------|
 | 0.0   | 0.95      | 0.97   | 0.96     | 288     |
 | 1.0   | 0.93      | 0.88   | 0.91     | 128     |
-| **Accuracy** |       |        |          | **0.94** |
+| **Accuracy** |       |        | 0.94     | 416     |
 | **Macro Avg** | 0.94      | 0.93   | 0.93     | 416     |
 | **Weighted Avg** | 0.94      | 0.94   | 0.94     | 416     |
+
+![image](https://github.com/user-attachments/assets/67d423fa-e62e-4ca6-875d-175c0e525795)
+
+### Gradient Boosting
+- **Accuracy**: 95.43%
+- **Confusion Matrix**:
+
+|          | Predicted Negative | Predicted Positive |
+|----------|--------------------|--------------------|
+| Actual Negative | 282                | 6                  |
+| Actual Positive | 13                 | 115                |
+
+- **Classification Report**:
+
+| Class | Precision | Recall | F1-score | Support |
+|-------|-----------|--------|----------|---------|
+| 0.0   | 0.96      | 0.98   | 0.97     | 288     |
+| 1.0   | 0.95      | 0.90   | 0.92     | 128     |
+| **Accuracy** |       |        | 0.95     | 416     |
+| **Macro Avg** | 0.95      | 0.94   | 0.95     | 416     |
+| **Weighted Avg** | 0.95      | 0.95   | 0.95     | 416     |
+
+### ROC (Receiver Operating Characteristic) Curve and AUC (Area Under the Curve)
+
+![image](https://github.com/user-attachments/assets/cfb3778f-e6b0-4594-82fc-cb35d98bba32)
 
 ## Usage
 To run the project, follow these steps:
 1. Clone the repository
 2. Install the required packages
-3. Run the `Alzheimer's Disease.ipynb` script
+3. Run the `main.py` script
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=BDBDC8&height=150&section=footer" />
