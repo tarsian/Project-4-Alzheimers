@@ -40,16 +40,13 @@ Three models were implemented:
 [[283 5]
 [ 15 113]]
 - **Classification Report**:
-'''markdown
            precision    recall  f1-score   support
 
-     0.0       0.95      0.98      0.97       288
-     1.0       0.96      0.88      0.92       128
+     0.0       0.95      0.97      0.96       288
+     1.0       0.93      0.88      0.91       128
 
-accuracy                           0.95       416
-macro avg 0.95 0.93 0.94 416
-weighted avg 0.95 0.95 0.95 416
-'''
+accuracy                           0.94       416
+
 
 ## Usage
 To run the project, follow these steps:
