@@ -14,8 +14,14 @@ The dataset used in this project includes demographic, clinical, and lifestyle i
 ## Models
 Three models were implemented:
 - Random Forest
+  ![image](https://github.com/user-attachments/assets/90861839-bfdf-4f9e-82b2-c05ab8fe215c)
+  
 - Decision Tree
+  ![image](https://github.com/user-attachments/assets/67d423fa-e62e-4ca6-875d-175c0e525795)
+  
 - Gradient Boosting
+- ROC (Receiver Operating Characteristic) Curve and AUC (Area Under the Curve)
+  ![image](https://github.com/user-attachments/assets/cfb3778f-e6b0-4594-82fc-cb35d98bba32)
 
 ## Initial Results
 - **Random Forest**
@@ -51,8 +57,6 @@ Three models were implemented:
 | **Macro Avg** | 0.95      | 0.93   | 0.94     | 416     |
 | **Weighted Avg** | 0.95      | 0.95   | 0.95     | 416     |
 
-![image](https://github.com/user-attachments/assets/90861839-bfdf-4f9e-82b2-c05ab8fe215c)
-
 ### Decision Tree
 - **Accuracy**: 94.47%
 - **Confusion Matrix**:
@@ -72,8 +76,6 @@ Three models were implemented:
 | **Macro Avg** | 0.94      | 0.93   | 0.93     | 416     |
 | **Weighted Avg** | 0.94      | 0.94   | 0.94     | 416     |
 
-![image](https://github.com/user-attachments/assets/67d423fa-e62e-4ca6-875d-175c0e525795)
-
 ### Gradient Boosting
 - **Accuracy**: 95.43%
 - **Confusion Matrix**:
@@ -92,10 +94,6 @@ Three models were implemented:
 | **Accuracy** |       |        | 0.95     | 416     |
 | **Macro Avg** | 0.95      | 0.94   | 0.95     | 416     |
 | **Weighted Avg** | 0.95      | 0.95   | 0.95     | 416     |
-
-### ROC (Receiver Operating Characteristic) Curve and AUC (Area Under the Curve)
-
-![image](https://github.com/user-attachments/assets/cfb3778f-e6b0-4594-82fc-cb35d98bba32)
 
 ## Usage
 To run the project, follow these steps:
