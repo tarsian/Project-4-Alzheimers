@@ -37,16 +37,42 @@ Three models were implemented:
 - **Cross-validation Accuracy**: 93.18%
 - **Test Accuracy**: 95.19%
 - **Confusion Matrix**:
-[[283 5]
-[ 15 113]]
+
+|          | Predicted Negative | Predicted Positive |
+|----------|--------------------|--------------------|
+| Actual Negative | 283                | 5                  |
+| Actual Positive | 15                 | 113                |
+
 - **Classification Report**:
-           precision    recall  f1-score   support
 
-     0.0       0.95      0.97      0.96       288
-     1.0       0.93      0.88      0.91       128
+| Class | Precision | Recall | F1-score | Support |
+|-------|-----------|--------|----------|---------|
+| 0.0   | 0.95      | 0.98   | 0.97     | 288     |
+| 1.0   | 0.96      | 0.88   | 0.92     | 128     |
+| **Accuracy** |       |        |          | **0.95** |
+| **Macro Avg** | 0.95      | 0.93   | 0.94     | 416     |
+| **Weighted Avg** | 0.95      | 0.95   | 0.95     | 416     |
 
-accuracy                           0.94       416
+### Decision Tree
+- **Best Parameters**: {'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 10}
+- **Cross-validation Accuracy**: 91.98%
+- **Test Accuracy**: 94.47%
+- **Confusion Matrix**:
 
+|          | Predicted Negative | Predicted Positive |
+|----------|--------------------|--------------------|
+| Actual Negative | 280                | 8                  |
+| Actual Positive | 15                 | 113                |
+
+- **Classification Report**:
+
+| Class | Precision | Recall | F1-score | Support |
+|-------|-----------|--------|----------|---------|
+| 0.0   | 0.95      | 0.97   | 0.96     | 288     |
+| 1.0   | 0.93      | 0.88   | 0.91     | 128     |
+| **Accuracy** |       |        |          | **0.94** |
+| **Macro Avg** | 0.94      | 0.93   | 0.93     | 416     |
+| **Weighted Avg** | 0.94      | 0.94   | 0.94     | 416     |
 
 ## Usage
 To run the project, follow these steps:
