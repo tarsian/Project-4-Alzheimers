@@ -14,7 +14,14 @@ The dataset used in this project includes demographic, clinical, and lifestyle i
 ## Models
 Three models were implemented:
 - Random Forest
+
+  ![image](https://github.com/user-attachments/assets/8b09dcb5-990c-4d2a-bcbb-6e7d6e3c8a65)
+
 - Decision Tree
+
+  ![image](https://github.com/user-attachments/assets/6a466b44-518a-481a-aee3-e5210674c0b0)
+
+
 - Logistic Regression
 
 ## Initial Results
@@ -29,6 +36,10 @@ Three models were implemented:
 - **Logistic Regression**
   - Accuracy: 84.38%
   - AUC: 0.8975
+
+- **ROC curve and AUC**
+
+![image](https://github.com/user-attachments/assets/edac95cd-7abc-4d3b-bc94-d84e1226124c)
 
 ## Optimized Results
 
