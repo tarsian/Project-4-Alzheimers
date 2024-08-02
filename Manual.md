@@ -1,4 +1,4 @@
-VectorAssembler
+- *VectorAssembler
 VectorAssembler is a feature transformer provided by Spark MLlib that combines multiple columns into a single vector column. This is essential for preparing data to be used with Spark MLlib's machine learning algorithms, which typically require input data in vector format.
 
 Key Features
