@@ -39,3 +39,7 @@ StringIndexer: Converts categorical data into numerical indices to facilitate pr
 indexed_data = indexer.fit(data).transform(data)
 ```
 - Explanation: StringIndexer transforms the categorical column 'Diagnosis' into a numerical index column 'label'. The indices are assigned based on the frequency of each category.
+
+## Summary
+VectorAssembler: Combines multiple numerical columns into a single vector column for use as input to machine learning algorithms.
+StringIndexer: Converts categorical data into numerical indices to facilitate processing by machine learning algorithms.
