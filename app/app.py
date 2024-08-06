@@ -1,7 +1,9 @@
 from flask import Flask, jsonify
+from flask_cors import CORS
 from sqlalchemy import create_engine, text
 
 app = Flask(__name__)
+CORS(app)
 
 # SQLAlchemy engine creation (connect to the database)
 engine = create_engine('sqlite:///alzheimers.db')
