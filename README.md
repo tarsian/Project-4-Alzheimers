@@ -17,11 +17,15 @@ Two models were implemented:
 - Decision Tree
 
 ## Results
-- Random Forest Accuracy: xx%
-- Random Forest AUC: xx
-- Decision Tree Accuracy: xx%
-- Decision Tree AUC: xx
-
+'
+Accuracy Scores:
+                Model  Accuracy
+0      Decision Tree  0.888372
+1      Random Forest  0.946512
+2  Gradient Boosting  0.955814
+3           XG Boost  0.948837
+4          Cat Boost  0.958140
+'
 ## Usage
 To run the project, follow these steps:
 1. Clone the repository
