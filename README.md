@@ -12,27 +12,12 @@ This project aims to predict Alzheimer's Disease using machine learning models.
 The dataset used in this project includes demographic, clinical, and lifestyle information.
 
 ## Models
-Two models were implemented:
-- Random Forest
-- Decision Tree
+5 Different Models
+![image](https://github.com/user-attachments/assets/df77d5ff-20bc-4aab-a8ab-543722ec8243)
 
 ## Results
-`
-Accuracy Scores:
+![image](https://github.com/user-attachments/assets/438138dd-d1f2-48f0-be5d-f8e5d7bd28a7)
 
-                Model  Accuracy
-                
-0      Decision Tree  0.888372
-
-1      Random Forest  0.946512
-
-2  Gradient Boosting  0.955814
-
-3           XG Boost  0.948837
-
-4          Cat Boost  0.958140
-
-`
 ## Usage
 To run the project, follow these steps:
 1. Clone the repository
