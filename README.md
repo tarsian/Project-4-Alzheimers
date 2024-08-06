@@ -25,8 +25,30 @@ Two models were implemented:
 ## Usage
 To run the project, follow these steps:
 1. Clone the repository
+```bash
+# Clone the repository
+git clone <repository-url>
+```
 2. Install the required packages
-3. Run the `main.py` script
+```bash
+# Install Require packages
+pip install flask sqlalchemy pandas requests jupyter
+``` 
+3. Go into app directory
+```bash
+~/GitHub/Project-4 $ cd app
+~/GitHubProject-4/app $
+```
+4. Run "load_data.py"
+```bash
+python load_data.py
+```
+5. Run "python app.py"
+```bash
+python app.py
+```
+6. Now you can use "Alzheimer's Disease.ipynb"
+
 
 
 
