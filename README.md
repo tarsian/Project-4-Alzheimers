@@ -32,22 +32,10 @@ git clone <repository-url>
 2. Install the required packages
 ```bash
 # Install Require packages
-pip install flask sqlalchemy pandas requests jupyter
+pip install seaborn --update
+pip install catboost
+pip install xgboost
 ``` 
-3. Go into app directory
-```bash
-~/GitHub/Project-4 $ cd app
-~/GitHub/Project-4/app $
-```
-4. Run "load_data.py"
-```bash
-python load_data.py
-```
-5. Run "python app.py"
-```bash
-python app.py
-```
-6. Now you can use "Alzheimer's Disease.ipynb"
 
 
 
