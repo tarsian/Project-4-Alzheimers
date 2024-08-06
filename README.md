@@ -6,10 +6,12 @@
 # Alzheimer's Disease Prediction
 
 ## Project Overview
-This project aims to predict Alzheimer's Disease using machine learning models.
+This project aims to build a model that predicts Alzheimers. It will allow healthcare systems to predict whether a person is likely to develop Alzheimers and put that person on a special plan to be monitored closely for signs and symptoms.
 
 ## Data [Link](https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset)
-The dataset used in this project includes demographic, clinical, and lifestyle information.
+  1. Provide predictions to determine whether a person will be closely monitored for Alzheimers
+  2. Improve model accuracy to be able to accurately predict Alzheimers
+
 
 ## Models
 5 Different Models
