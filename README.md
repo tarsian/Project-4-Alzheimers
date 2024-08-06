@@ -19,12 +19,19 @@ Two models were implemented:
 ## Results
 `
 Accuracy Scores:
+
                 Model  Accuracy
+                
 0      Decision Tree  0.888372
+
 1      Random Forest  0.946512
+
 2  Gradient Boosting  0.955814
+
 3           XG Boost  0.948837
+
 4          Cat Boost  0.958140
+
 `
 ## Usage
 To run the project, follow these steps:
