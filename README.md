@@ -37,7 +37,7 @@ pip install flask sqlalchemy pandas requests jupyter
 3. Go into app directory
 ```bash
 ~/GitHub/Project-4 $ cd app
-~/GitHubProject-4/app $
+~/GitHub/Project-4/app $
 ```
 4. Run "load_data.py"
 ```bash
