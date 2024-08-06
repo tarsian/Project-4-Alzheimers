@@ -26,7 +26,10 @@ Two models were implemented:
 To run the project, follow these steps:
 1. Clone the repository
 2. Install the required packages
-3. Run the `main.py` script
+    * pip install seaborn --upgrade
+    * pip install catboost
+    * pip install xgboost
+4. Run the `main.py` script
 
 
 
