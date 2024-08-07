@@ -2,6 +2,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=BDBDC8&height=150&section=header" />
 
 [Project-4-Proposal](https://docs.google.com/document/d/1wjlaXLGC6ZO0PcoKIO1drjRMGmiGWQUmc7J78Ze_ab0/edit)
+[Project-4-Presentation](https://docs.google.com/presentation/d/1Ox67xYNNrqshxPYItvrRJksU-eEXDaOTcOdYGBiVM_g/edit?usp=sharing)
 
 # Alzheimer's Disease Prediction
 
