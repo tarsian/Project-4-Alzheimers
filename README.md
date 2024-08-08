@@ -36,7 +36,10 @@ pip install seaborn --update
 pip install catboost
 pip install xgboost
 ``` 
-
+## Resources
+[https://www.kaggle.com/code/pepperfish/alzhiemier-s-prediction-random-forest](https://www.kaggle.com/code/pepperfish/alzhiemier-s-prediction-random-forest)
+[https://www.kaggle.com/code/natalyyakobov/binary-classification-96-6-acc-alzheimers](https://www.kaggle.com/code/natalyyakobov/binary-classification-96-6-acc-alzheimers)
+[https://www.kaggle.com/code/adhamtarek147/alzheimer-s-disease-prediction](https://www.kaggle.com/code/adhamtarek147/alzheimer-s-disease-prediction)
 
 
 
