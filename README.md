@@ -35,7 +35,9 @@ git clone <repository-url>
 pip install seaborn --update
 pip install catboost
 pip install xgboost
-``` 
+```
+
+3. Run the code through `Jupyter notebook`
 ## Resources
 [https://www.kaggle.com/code/pepperfish/alzhiemier-s-prediction-random-forest](https://www.kaggle.com/code/pepperfish/alzhiemier-s-prediction-random-forest)
 [https://www.kaggle.com/code/natalyyakobov/binary-classification-96-6-acc-alzheimers](https://www.kaggle.com/code/natalyyakobov/binary-classification-96-6-acc-alzheimers)
